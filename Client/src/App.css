@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-family:'Gilroy', 'Gilroy-Medium';
+}
+.Home{
+    height: 100%;
+    width: 100%;
+    background-image:url('/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navlist li{
+    transition: all ease 0.4s;
+}
+.navlist li:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
